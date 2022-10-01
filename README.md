@@ -9,7 +9,12 @@ Flat and minimalistic dark theme for Visual Studio Code.
 3. Install & reload.
 4. CTRL (⌘) + SHIFT (⇧) + P and type "Color Theme".
 5. Pick Beyond from the list and hit enter.
-6. Done.
+6. Enjoy.
+
+Install with VS Code Quick Open:
+1. CTRL (⌘) + P 
+2. Enter `ext install woidzero.beyond`
+3. Enjoy.
 
 
 ## Preview
