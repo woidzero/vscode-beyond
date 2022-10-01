@@ -2,7 +2,7 @@
   "name": "beyond",
   "displayName": "Beyond",
   "description": "Flat and minimalistic dark theme for VSCode.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "woidzero",
   "icon": "icon.png",
   "engines": {
