@@ -14,4 +14,4 @@ Flat and minimalistic dark theme for Visual Studio Code.
 
 ## Preview
 
-![Theme preview](https://cdn.discordapp.com/attachments/1004866892466495538/1025523280871960596/unknown.png)
+![Theme preview]([https://cdn.discordapp.com/attachments/1004866892466495538/1025523280871960596/unknown.png](https://cdn.discordapp.com/attachments/1015989458228744294/1025850005543714896/unknown.png))
