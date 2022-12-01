@@ -1,0 +1,352 @@
+{ 
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Beyond",
+	"type": "dark",
+	"colors": {
+		"sideBar.background": "#1d1d1d",
+		"sideBar.foreground": "#e0e0e0",
+		"sideBarTitle.foreground": "#fff",
+		"button.background": "#fff",
+		"button.foreground": "#1a1a1a",
+		"button.hoverBackground": "#ececec",
+		"dropdown.background": "#2c2c2c",
+      	"dropdown.border": "#00000000",
+		"input.background": "#292929",
+		"input.border": "#00000000",
+		"input.foreground": "#d4d4d4",
+		"input.placeholderForeground": "#8d8d8d",
+		"list.activeSelectionBackground": "#ffffff0c",
+		"list.activeSelectionForeground": "#ebebeb",
+		"list.focusBackground": "#ffffff0c",
+		"list.hoverBackground": "#ffffff05",
+		"list.highlightForeground": "#D7DAE0",
+		"list.inactiveSelectionBackground": "#ffffff04",
+		"list.inactiveSelectionForeground": "#D7DAE0",
+		"focusBorder": "#00000000",
+		"editor.background": "#202020",
+		"editor.foreground": "#d4d4d4",
+		"editorGroupHeader.tabsBackground":"#1b1b1b",
+		"editorCursor.foreground": "#A9B2C3",
+		"editor.findMatchBackground": "#ffffff1e",
+		"editor.findMatchHighlightBackground": "#ffffff1e",
+		"editor.selectionHighlightBackground": "#ffffff1a",
+		"editor.selectionBackground": "#ffffff10",
+		"editorLineNumber.foreground": "#727272",
+		"editor.lineHighlightBackground": "#ffffff07",
+		"statusBar.background" : "#1d1d1d",
+		"statusBar.focusBorder": "#00000000",
+    	"statusBar.foreground": "#a8a8a8",
+		"statusBar.debuggingBackground": "#202020",
+		"statusBar.debuggingForeground": "#e0e0e0",
+		"statusBar.noFolderBackground": "#202020",
+		"statusBar.noFolderForeground": "#e0e0e0",
+		"titleBar.activeBackground": "#1d1d1d",
+		"titleBar.inactiveBackground": "#1b1b1b",
+		"activityBar.background": "#242424",
+		"activityBar.foreground": "#e6e6e6",
+		"activityBarBadge.background": "#2b2b2b",
+		"activityBarBadge.foreground": "#FFFFFF",
+		"tab.activeForeground": "#ffffff",
+		"tab.activeBackground": "#202020",
+		"tab.hoverBackground": "#ffffff04",
+		"tab.inactiveBackground": "#1a1a1a",
+		"tab.inactiveForeground": "#9e9e9e",
+		"tab.border": "#00000000",
+		"badge.background":"#00000000",
+		"badge.foreground":"#e7e7e7",
+  	},
+  	"tokenColors": [
+		{
+			"scope":[
+				"markup.raw",
+				"meta.link",
+				"meta.class",
+				"meta.import",
+				"meta.package",
+				"entity.name.class",
+				"entity.name.type.class",
+				"entity.other.attribute-name",
+				"keyword.other.unit",
+				"meta.property-list",
+				"support.class",
+				"meta.class.body",
+				"support.constant.media.css"
+			],
+			"settings":{
+				"foreground": "#ffa198"
+			}
+		},
+		{
+			"scope":[
+				"support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
+				"keyword.operator.css,keyword.operator.scss,keyword.operator.less",
+				"string.quoted.double punctuation",
+				"markup.inserted",
+				"string",
+			],
+			"settings":{
+				"foreground": "#a3df90"
+			}
+		},
+		{
+			"scope":[
+				"meta.diff.header.from-file",
+				"meta.diff.header.to-file",
+				"meta.method-call",
+				"meta.class.body",
+				"meta.method",
+				"markup.link",
+				"markup.inline.raw",
+				"markup.heading.setext",
+				"markup.other.markdown",
+				"punctuation.definition.list",
+				"punctuation.definition.to-file.diff",
+				"punctuation.definition.from-file.diff",
+				"punctuation.definition.heading.markdown",
+				"markup.heading punctuation.definition.heading",
+				"entity.other.attribute-name.pseudo-element",
+				"entity.other.attribute-name.id",
+				"entity.name.section.markdown",
+				"entity.name.function",			
+				"entity.name.section",
+				"support.function",
+				"support.type",
+				"constant.other.symbol",
+				"keyword.other.special-method",
+				"meta.function-call",
+				"meta.indexed-name.python",
+			],
+			"settings":{
+				"foreground": "#e8b2f5"
+			}
+		},
+		{
+			"scope":[
+				"storage.type.primitive",
+				"keyword.operator",
+				"keyword.other.type",
+				"constant.language",
+				"constant.character.escape",
+				"markup.inserted.diff",
+				"markup.quote.markdown",
+				"punctuation.section.embedded.end",
+				"punctuation.section.embedded.begin",
+				"punctuation.definition.quote.begin.markdown",
+			],
+			"settings":{
+				"foreground": "#a5d6ff"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"keyword.control.flow",
+				"keyword.control.import",
+				"keyword.operator.logical",
+				"storage.type",
+				"storage.modifier",
+				"meta.selector",
+			],
+			"settings": {
+				"foreground": "#ff7b72"
+			}
+		},
+		{
+			"scope":[
+				"source.ts punctuation.definition.block",
+				"source.js punctuation.definition.block",
+				"source.tsx punctuation.definition.block",				
+				"punctuation.definition.method-parameters",
+				"punctuation.definition.function-parameters",
+				"punctuation.definition.parameters",
+				"punctuation.definition.separator",
+				"punctuation.section.inner-class",
+				"punctuation.definition.array",
+				"punctuation.section.method",
+				"punctuation.section.class",
+				"meta.separator",
+				"meta.tag",				
+				"variable",
+				"variable.parameter",
+				"variable.interpolation",
+				"source.css property-value",
+				"support.type.property-value",
+				"support.type.vendored.property-name",
+				"support.type.property-name",
+				"markup.deleted.diff",
+				"markup.heading",
+				"string.other.link",
+				"punctuation.terminator.rule",
+				"punctuation.separator.key-value",
+				"punctuation.definition.begin.bracket.curly",
+				"punctuation.definition.end.bracket.curly",
+				"punctuation.definition.arguments.begin.bracket.round",
+				"punctuation.definition.arguments.end.bracket.round",
+				"punctuation.section.property-list.end.bracket.curly",
+				"punctuation.section.property-list.begin.bracket.curly",
+				"punctuation.section.try.begin.bracket.curly",
+				"punctuation.section.try.end.bracket.curly",
+				"punctuation.section.catch.end.bracket.curly",
+				"punctuation.section.catch.begin.bracket.curly",
+				"punctuation.definition.class.end.bracket.curly",
+				"punctuation.definition.class.begin.bracket.curly",
+				"punctuation.terminator.expression",
+				"punctuation.definition.entity",
+				"punctuation.definition.dictionary.end",
+				"punctuation.definition.dictionary.begin",
+				"punctuation.separator.dictionary.pair",
+				"punctuation.separator.array",
+				"punctuation.separator.dictionary.key-value",
+				"keyword.operator.class",
+				"punctuation.terminator",
+				"storage.modifier.package.java",
+				"storage.modifier.import.java",
+				"storage.type.java",
+				"constant.other.key.java",
+				"meta.brace.round",
+				"punctuation.definition.arguments.begin",
+				"punctuation.definition.arguments.end",
+				"meta.function-call.arguments",
+				"punctuation.definition.annotation-arguments.begin.bracket.round",
+				"punctuation.definition.annotation-arguments.end.bracket.round",
+				"punctuation.section.block.end.bracket.curly",
+				"punctuation.section.block.begin.bracket.curly",
+				"punctuation.bracket.angle",
+				"punctuation.bracket.round.java",
+				"meta.method.body",
+				"punctuation.section.function.begin.bracket.round",
+				"punctuation.section.function.end.bracket.round",
+				"meta.property-name",
+				"keyword.operator.list.shell",
+				"meta.method-call.java",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python"
+			],
+			"settings":{
+				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end",
+				"punctuation.definition.tag",
+			],
+			"settings": {
+				"foreground": "#a8a8a8",
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"comment.line",
+				"comment.block",
+				"comment.markup.link",
+				"comment.block.documentation",
+				"punctuation.definition.comment",
+				"comment.block.java",
+				"punctuation.definition.comment.shebang",
+				"comment.line.number-sign.shebang.shell"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6e6e6e",
+			}
+		},
+		{
+			"scope": [
+				"markup.heading",
+				"constant.numeric",
+				"keyword.other.type",
+				"storage.type.annotation",
+				"meta.definition.variable",
+				"entity.name.tag",
+				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.class",
+				"support.variable.property",
+				"support.type.property-name.json",
+				"punctuation.definition.variable",
+				"punctuation.definition.annotation",
+				
+			],
+			"settings": {
+				"foreground": "#79c0ff",
+			}
+		},
+		{
+			"scope": "underline",
+			"settings":{
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "none",
+			"settings":{
+				"foreground":"#d4d4d4"
+			}
+		},
+		{
+			"scope": "invalid.deprecated",
+			"settings":{
+				"foreground":"#646464",
+			}
+		},
+		{
+			"scope": "markup.italic",
+			"settings":{
+				"fontStyle":"italic"
+			}
+		},
+		{
+			"scope": ["markup.italic markup.bold", "markup.bold markup.italic"],
+			"settings":{
+				"fontStyle":"italic bold"
+			}
+		},
+		{
+			"scope": "markup.strikethrough",
+			"settings":{
+				"fontStyle":"strikethrough"
+			}
+		},
+		{
+			"name":"[Markup Strikethrough Bold]",
+			"scope":[
+				"markup.strikethrough markup.bold",
+				"markup.bold markup.strikethrough",
+			],
+			"settings":{
+				"fontStyle":"strikethrough bold"
+			}
+		},
+		{
+			"name":"[Markup Strikethrough Italic Bold]",
+			"scope":[
+				"markup.italic markup.bold markup.strikethrough",
+				"markup.bold markup.italic markup.strikethrough",
+				"markup.italic markup.strikethrough markup.bold",
+				"markup.bold markup.strikethrough markup.italic",
+				"markup.strikethrough markup.italic markup.bold",
+				"markup.strikethrough markup.bold markup.italic",
+			],
+			"settings":{
+				"fontStyle":"italic strikethrough bold"
+			}
+		},
+		{
+			"scope": [
+				"markup.bold",
+				"variable.language.this",
+				"variable.language.this",
+				"variable.language.special.cls.python",
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.cls.python",
+				"variable.parameter.function.language.special.self.python",
+			],
+			"settings": {
+				"fontStyle": "bold",
+			}
+		},
+  	]
+}
